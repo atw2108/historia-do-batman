@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A História do Batman</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #1a1a1a;
+      color: #eee8e8;
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #111;
+      color: #fff;
+      padding: 10px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      margin: 0 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      padding: 5px 10px;
+    }
+
+    nav ul li a:hover {
+      background-color: #444;
+      border-radius: 5px;
+    }
+
+    main {
+      padding: 20px;
+      flex: 1;
+    }
+
+    .content-wrapper {
+      background-color: #2a2a2a;
+      border-radius: 15px;
+      padding: 20px;
+      margin-bottom: 20px;
+      opacity: 0.95;
+    }
+
+    .intro {
+      background-image: url(https://preview.redd.it/batman-desktop-wallpaper-5760x2880-v0-rn94udbyf8xd1.jpeg?auto=webp&s=6d075c418a49403474d869bb72ee4ce534d18588);
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      padding: 80px 20px;
+      text-align: center;
+      border-radius: 15px;
+      margin-bottom: 30px;
+    }
+
+    .posts {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .post {
+      background-color: #444;
+      border-radius: 10px;
+      padding: 15px;
+      transition: transform 0.3s ease;
+    }
+
+    .post img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .post h2 {
+      margin: 15px 0;
+      color: #ffd700;
+    }
+
+    .link-post {
+      color: #1e90ff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .link-post:hover {
+      text-decoration: underline;
+    }
+
+    .post:hover {
+      transform: scale(1.05);
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="content-wrapper">
+      <section class="intro">
+        <h1>A História do Batman</h1>
+        <p>Conheça a jornada de Bruce Wayne, o homem por trás da máscara, e sua luta incansável contra o crime em Gotham City.</p>
+      </section>
+
+      <section class="posts">
+        <article class="post">
+          <img src="https://upload.wikimedia.org/wikipedia/pt/a/a8/Detective_Comics_27.jpg" alt="Primeira aparição do Batman">
+          <h2>Primeira Aparição</h2>
+          <p>Batman apareceu pela primeira vez nas páginas de Detective Comics #27, em 1939. Criado por Bob Kane e Bill Finger, o herói logo se tornou um ícone da cultura pop.</p>
+        </article>
+
+        <article class="post">
+          <img src="https://i.redd.it/213ajw5hbv491.jpg" alt="Batman nos anos 40">
+          <h2>Os Primeiros Anos</h2>
+          <p>Nos anos 40, Batman ganhou sua própria série de quadrinhos e começou a formar seu elenco de apoio, como o Robin e o Comissário Gordon. A luta contra o crime em Gotham City se intensificou.</p>
+        </article>
+
+        <article class="post">
+          <img src="https://alemdatorredeobservacao.wordpress.com/wp-content/uploads/2013/08/batman-de-1989-de-tim-burton.jpg" alt="Batman de Tim Burton">
+          <h2>A Era de Tim Burton</h2>
+          <p>Em 1989, o Batman de Tim Burton transformou o herói em um ícone global no cinema. Michael Keaton deu vida a um Batman sombrio e mais introspectivo, com vilões memoráveis como o Coringa.</p>
+        </article>
+
+        <article class="post">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVp-_lfQOCeZ3PV5j9UmJlMxB73cwU7lfA6A&s" alt="Batman: O Cavaleiro das Trevas">
+          <h2>O Cavaleiro das Trevas</h2>
+          <p>O filme de Christopher Nolan, "Batman: O Cavaleiro das Trevas" (2008), é considerado um dos melhores filmes de super-herói de todos os tempos, com a atuação icônica de Heath Ledger como o Coringa.</p>
+        </article>
+      </section>
+    </div>
+  </main>
+
+</body>
+</html>
